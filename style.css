@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/* *****common class******* */
+
+.continer {
+    max-width: 1200px;
+    padding: 0 7%;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.secondary-color {
+    color: red;
+}
+
+
+/* *******end common class */
+
+
+/* card section */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.single-card {
+    border: 2px solid #222;
+    padding: 15px;
+}
+
+.single-card .img {
+    width: 40%;
+    margin: 20px 0 10px 0;
+}
+
+.single-card img {
+    width: 100%;
+}
+
+.single-card h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.single-card p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+#first {
+    width: 50%;
+    background: green;
+}
+
+#second {
+    width: 25%;
+    background: purple;
+}
+
+#third {
+    width: 25%;
+}
